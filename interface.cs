@@ -1,88 +1,58 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 
-
-namespace 接口
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            var dog = new Dog();
-            dog.Say();
-
-            var cat = new Cat();
-            cat.Say();
-
-            var bad = new BadDemo();
-            bad.AnimalSay(dog);
-
-            var good = new GoodDemo();
-            good.AnimalSay(dog);
-
-            foreach (var file in GetFiles())
-            {
-                Console.WriteLine(file);
-            }
-
-            Console.ReadKey();
-        }
-
-        // 接口的小demo
-        public static ICollection<string> GetFiles()
-        {
-            var files = Directory.GetFiles(@"c:\", "*.*");
-
-            return files;
-        }
-    }
-    
-    public interface IAnimal
-    {
-        void Say();
+        // Console.WriteLine("hello world");
+        var sc = new ShopCart();
+        sc.AddFruits(new Apple());
+        sc.AddFruits(new Orange());
+        Console.WriteLine("totalPrice = {0}", sc.GetTotalPrice());
     }
 
-    // 如果类继承了某接口，就必须实现其成员,接口起到约束的作用
-    class Dog:IAnimal   
-    {
-        public void Say()
-        {
-            Console.WriteLine("汪汪");
-        }
-    }
+}
 
-    class Cat:IAnimal
-    {
-        public void Say()
-        {
-            Console.WriteLine("喵喵");
-        }
-    }
-    
-    class BadDemo
-    {
-        public void AnimalSay(Cat cat)
-        {
-            cat.Say();
-        }
-
-        public void AnimalSay(Dog dog)
-        {
-            dog.Say();
-        }
-    }
-
-    class GoodDemo
-    {
-        // 接口作为一种引用类型，可以指向其实现类。
-        // 此例接口相当于C++的基类
-        public void AnimalSay(IAnimal a)
-        {
-            a.Say();
-        }
-    }
-    
+// 接口是一种只包含虚函数的类
+interface IFruit
+{
+    double GetPrice();
 }
 
 
+class Apple:IFruit
+{
+    public double GetPrice()
+    {
+        return 5.0;
+    }
+}
+
+
+class Orange:IFruit
+{
+    public double GetPrice()
+    {
+        return 10.0;
+    }
+}
+
+
+class ShopCart
+{
+    private List<IFruit> fruits = new List<IFruit>();
+
+    public void AddFruits(IFruit fruit)
+    {
+        fruits.Add(fruit);
+    }
+
+    public double GetTotalPrice()
+    {
+        double totalPrice = 0;
+        fruits.ForEach(x => totalPrice += x.GetPrice());
+
+        return totalPrice;
+    }
+}
