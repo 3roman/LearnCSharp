@@ -21,7 +21,7 @@ interface IFruit
 }
 
 
-class Apple:IFruit
+class Apple : IFruit
 {
     public double GetPrice()
     {
@@ -30,7 +30,7 @@ class Apple:IFruit
 }
 
 
-class Orange:IFruit
+class Orange : IFruit
 {
     public double GetPrice()
     {

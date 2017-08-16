@@ -5,12 +5,12 @@ using System.Linq;
 
 namespace LINQ
 {
-    public enum Gender{ 男, 女, 人妖};
+    public enum Gender { 男, 女, 人妖 };
 
     public class Roster
     {
         public int Id { get; set; }
-        public string  Name { get; set; }
+        public string Name { get; set; }
         public int Age { get; set; }
         public Gender Sex { get; set; }
         public bool Married { get; set; }
@@ -36,9 +36,9 @@ namespace LINQ
             };
 
             var ret = roster.
-                Where(x => x.Married && x.Sex==Gender.女).
+                Where(x => x.Married && x.Sex == Gender.女).
                 OrderBy(x => x.Id).
-                Select(x => new {x.Id, x.Name}).
+                Select(x => new { x.Id, x.Name }).
                 ToList();
 
             ret.ToList().ForEach(Console.WriteLine);
@@ -48,17 +48,17 @@ namespace LINQ
                     let fileinfo = new FileInfo(filename)
                     where fileinfo.Extension.Contains("exe")
                     orderby fileinfo.Length, fileinfo.Name
-                    select new {fileinfo.Name, fileinfo.FullName};
+                    select new { fileinfo.Name, fileinfo.FullName };
             files.ToList().ForEach(Console.WriteLine);
 
             var haha =
                 from filename in Directory.GetFiles("c:/windows/system32")
                 let fileinfo = new FileInfo(filename)
                 group fileinfo by fileinfo.Extension
-                into groups
-                from item in groups
-                orderby item.Extension
-                select new {item.FullName};
+                    into groups
+                    from item in groups
+                    orderby item.Extension
+                    select new { item.FullName };
 
             haha.ToList().ForEach(Console.WriteLine);
 
