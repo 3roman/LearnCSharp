@@ -3,18 +3,32 @@ using System.Data;
 using System.Data.OleDb;
 using System.IO;
 
-
 namespace ExcelToDataTable
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var dt = GetWorkSheet(@"data.xlsx", "IH250");
+            Console.WriteLine(MatchThickness(167, "800"));
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
 
+        public static string MatchThickness(int temp, string dn)
+        {
+            var value = "";
+            try
+            {
+                var dt = GetWorkSheet(@"data.xlsx", "IP");
+                value = dt.Select("TEMP >= " + temp)[0][dn].ToString();
+            }
+            catch (Exception)
+            {
+                return "error";
+            }
+
+            return value;
+        }
 
         public static DataTable GetWorkSheet(string filePath, string workSheetName)
         {
@@ -31,9 +45,9 @@ namespace ExcelToDataTable
             }
             catch (Exception)
             {
-                throw;
+                
             }
-            
+
             return dataTable;
         }
 
