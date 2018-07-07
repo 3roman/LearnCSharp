@@ -1,0 +1,9 @@
+﻿<Window x:Class="_6_2_Binding基础.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="102.308" Width="366.154">
+    <StackPanel >
+        <TextBox x:Name ="txtName" Margin="5" />
+        <Button Content="click me" Click="Button_Click" Margin="5"/>
+    </StackPanel>
+</Window>

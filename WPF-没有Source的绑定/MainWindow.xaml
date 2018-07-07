@@ -1,0 +1,25 @@
+﻿<Window x:Class="_6_3_6_没有Source的绑定.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:_6_3_6_没有Source的绑定"
+        Title="MainWindow" Height="160" Width="450" WindowStartupLocation="CenterScreen"
+       >
+    <Grid Margin="10">
+        <Grid.DataContext>
+            <local:Student Name="Tom" Age="15" Gender="Male" Score="98"/>
+        </Grid.DataContext>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <!--如果没有为binding指定数据源，控件会借用父控件的数据源-->
+        <TextBox Grid.Row="0" Grid.Column="0" Margin="5" Text="{Binding Path=Name}" FontSize="25" TextAlignment="Center"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Margin="5" Text="{Binding Path=Age}" FontSize="25" TextAlignment="Center"/>
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="5" Text="{Binding Path=Gender}" FontSize="25" TextAlignment="Center"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="5" Text="{Binding Path=Score}" FontSize="25" TextAlignment="Center"/>
+    </Grid>
+</Window>

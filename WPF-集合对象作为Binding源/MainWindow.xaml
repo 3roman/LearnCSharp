@@ -1,0 +1,16 @@
+﻿<Window x:Class="集合对象作为Binding源.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid >
+        <ListView x:Name="LvMain" Margin="5">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name"  Width="150" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Age"  Width="100" DisplayMemberBinding="{Binding Age}"/>
+                    <GridViewColumn Header="Score"  Width="100" DisplayMemberBinding="{Binding Score}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+﻿<Window x:Class="_6_3_1_控件作为Binding源.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="113.076" Width="533.077">
+    <StackPanel Margin="5" >
+        <!--如果依赖属性是可读可写的，默认绑定方向就是双向的-->
+        <!--TextBox默认的UpdateSourceTrigger属性是LostFocus，只有焦点才会更新-->
+        <TextBox  Margin="5" Text="{Binding Value, ElementName=Slider1, UpdateSourceTrigger=PropertyChanged}"/>
+        <Slider x:Name="Slider1" Margin="5"/>
+    </StackPanel>
+</Window>
