@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-ParseHtml", "CSharp-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-ExcelToDataTable", "CSharp-ExcelToDataTable\CSharp-ExcelToDataTable.csproj", "{836AB59A-B012-4456-8411-86516CB524D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet-EmbedWin32Dll", "NuGet-EmbedWin32Dll\NuGet-EmbedWin32Dll.csproj", "{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,14 @@ Global
 		{836AB59A-B012-4456-8411-86516CB524D7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{836AB59A-B012-4456-8411-86516CB524D7}.Release|x86.ActiveCfg = Release|x86
 		{836AB59A-B012-4456-8411-86516CB524D7}.Release|x86.Build.0 = Release|x86
+		{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}.Debug|x86.Build.0 = Debug|Any CPU
+		{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}.Release|x86.ActiveCfg = Release|Any CPU
+		{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
