@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace _6_3_6_没有Source的绑定
+namespace 没有Source的绑定
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑

@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Windows;
 
-namespace 没有Path的Binding
+namespace WPF_布局Canvas
 {
     /// <summary>
     /// App.xaml 的交互逻辑

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _6_2_Binding基础.Properties
+namespace Binding基础.Properties
 {
 
 

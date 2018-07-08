@@ -1,6 +1,7 @@
-﻿<Application x:Class="Binding基础.App"
+﻿<Application x:Class="WPF_布局嵌套.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPF_布局嵌套"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

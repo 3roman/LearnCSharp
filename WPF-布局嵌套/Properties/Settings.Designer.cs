@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace 没有Source的绑定.Properties
+namespace WPF_布局嵌套.Properties
 {
 
 

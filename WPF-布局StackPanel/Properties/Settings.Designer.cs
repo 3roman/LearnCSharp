@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace 没有Path的Binding.Properties
+namespace WPF_布局StackPanel.Properties
 {
 
 

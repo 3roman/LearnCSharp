@@ -1,4 +1,4 @@
-﻿<Application x:Class="_6_3_6_没有Source的绑定.App"
+﻿<Application x:Class="没有Source的绑定.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              StartupUri="MainWindow.xaml">

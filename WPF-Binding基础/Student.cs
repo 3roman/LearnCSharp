@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace _6_2_Binding基础
+namespace Binding基础
 {
     public class Student : INotifyPropertyChanged
     {

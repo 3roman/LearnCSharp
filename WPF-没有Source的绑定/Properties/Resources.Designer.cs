@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _6_3_6_没有Source的绑定.Properties
+namespace 没有Source的绑定.Properties
 {
 
 

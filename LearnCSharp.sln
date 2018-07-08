@@ -5,13 +5,11 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Binding基础", "WPF-Binding基础\WPF-Binding基础.csproj", "{86EBF0C8-5498-406E-8624-44A0F4B2E54C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-集合对象作为Binding源", "WPF-集合对象作为Binding源\WPF-集合对象作为Binding源.csproj", "{C65749DB-8A5D-4F36-BD83-A39D23BBF4DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Binding源为集合", "WPF-集合对象作为Binding源\WPF-Binding源为集合.csproj", "{C65749DB-8A5D-4F36-BD83-A39D23BBF4DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-控件作为Binding源", "WPF-控件作为Binding源\WPF-控件作为Binding源.csproj", "{12111298-3A8E-4798-BC4E-746782FCD16F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Binding源为控件作", "WPF-控件作为Binding源\WPF-Binding源为控件作.csproj", "{12111298-3A8E-4798-BC4E-746782FCD16F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-没有Source的绑定", "WPF-没有Source的绑定\WPF-没有Source的绑定.csproj", "{249862BE-FC62-420B-899B-764080E59070}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-资源作为Binding源", "WPF-资源作为Binding源\WPF-资源作为Binding源.csproj", "{C06B206E-225C-419E-B8D6-734893F4BD35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Binding没有Source", "WPF-没有Source的绑定\WPF-Binding没有Source.csproj", "{249862BE-FC62-420B-899B-764080E59070}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-对象资源", "WPF-对象资源\WPF-对象资源.csproj", "{BD6F0D52-4AC3-4DD2-8A98-101CDA8ACFA8}"
 EndProject
@@ -38,6 +36,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-ExcelToDataTable", "CSharp-ExcelToDataTable\CSharp-ExcelToDataTable.csproj", "{836AB59A-B012-4456-8411-86516CB524D7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet-EmbedWin32Dll", "NuGet-EmbedWin32Dll\NuGet-EmbedWin32Dll.csproj", "{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-布局嵌套", "WPF-布局嵌套\WPF-布局嵌套.csproj", "{D3CEC90A-CCB7-46F4-A9C2-4B5483E1FD53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-布局Canvas", "WPF-布局Canvas\WPF-布局Canvas.csproj", "{ACA4CB31-0007-4AD3-9C99-1756FB06A8A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-布局StackPanel", "WPF-布局StackPanel\WPF-布局StackPanel.csproj", "{96E380A4-B5A1-47D0-B3DC-74D281CAE312}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,14 +83,6 @@ Global
 		{249862BE-FC62-420B-899B-764080E59070}.Release|Any CPU.Build.0 = Release|Any CPU
 		{249862BE-FC62-420B-899B-764080E59070}.Release|x86.ActiveCfg = Release|Any CPU
 		{249862BE-FC62-420B-899B-764080E59070}.Release|x86.Build.0 = Release|Any CPU
-		{C06B206E-225C-419E-B8D6-734893F4BD35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C06B206E-225C-419E-B8D6-734893F4BD35}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C06B206E-225C-419E-B8D6-734893F4BD35}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{C06B206E-225C-419E-B8D6-734893F4BD35}.Debug|x86.Build.0 = Debug|Any CPU
-		{C06B206E-225C-419E-B8D6-734893F4BD35}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C06B206E-225C-419E-B8D6-734893F4BD35}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C06B206E-225C-419E-B8D6-734893F4BD35}.Release|x86.ActiveCfg = Release|Any CPU
-		{C06B206E-225C-419E-B8D6-734893F4BD35}.Release|x86.Build.0 = Release|Any CPU
 		{BD6F0D52-4AC3-4DD2-8A98-101CDA8ACFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD6F0D52-4AC3-4DD2-8A98-101CDA8ACFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD6F0D52-4AC3-4DD2-8A98-101CDA8ACFA8}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -175,6 +171,30 @@ Global
 		{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}.Release|x86.ActiveCfg = Release|Any CPU
 		{BC3C6F00-1CE2-4B12-A3EF-DC6447728D23}.Release|x86.Build.0 = Release|Any CPU
+		{D3CEC90A-CCB7-46F4-A9C2-4B5483E1FD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CEC90A-CCB7-46F4-A9C2-4B5483E1FD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CEC90A-CCB7-46F4-A9C2-4B5483E1FD53}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D3CEC90A-CCB7-46F4-A9C2-4B5483E1FD53}.Debug|x86.Build.0 = Debug|Any CPU
+		{D3CEC90A-CCB7-46F4-A9C2-4B5483E1FD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CEC90A-CCB7-46F4-A9C2-4B5483E1FD53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CEC90A-CCB7-46F4-A9C2-4B5483E1FD53}.Release|x86.ActiveCfg = Release|Any CPU
+		{D3CEC90A-CCB7-46F4-A9C2-4B5483E1FD53}.Release|x86.Build.0 = Release|Any CPU
+		{ACA4CB31-0007-4AD3-9C99-1756FB06A8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA4CB31-0007-4AD3-9C99-1756FB06A8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA4CB31-0007-4AD3-9C99-1756FB06A8A6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ACA4CB31-0007-4AD3-9C99-1756FB06A8A6}.Debug|x86.Build.0 = Debug|Any CPU
+		{ACA4CB31-0007-4AD3-9C99-1756FB06A8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA4CB31-0007-4AD3-9C99-1756FB06A8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA4CB31-0007-4AD3-9C99-1756FB06A8A6}.Release|x86.ActiveCfg = Release|Any CPU
+		{ACA4CB31-0007-4AD3-9C99-1756FB06A8A6}.Release|x86.Build.0 = Release|Any CPU
+		{96E380A4-B5A1-47D0-B3DC-74D281CAE312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E380A4-B5A1-47D0-B3DC-74D281CAE312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E380A4-B5A1-47D0-B3DC-74D281CAE312}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{96E380A4-B5A1-47D0-B3DC-74D281CAE312}.Debug|x86.Build.0 = Debug|Any CPU
+		{96E380A4-B5A1-47D0-B3DC-74D281CAE312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E380A4-B5A1-47D0-B3DC-74D281CAE312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E380A4-B5A1-47D0-B3DC-74D281CAE312}.Release|x86.ActiveCfg = Release|Any CPU
+		{96E380A4-B5A1-47D0-B3DC-74D281CAE312}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

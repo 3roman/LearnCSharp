@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Windows;
 
-namespace Binding基础
+namespace WPF_布局StackPanel
 {
     /// <summary>
     /// App.xaml 的交互逻辑

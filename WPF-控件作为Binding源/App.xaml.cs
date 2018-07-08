@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Windows;
 
-namespace _6_3_1_控件作为Binding源
+namespace 控件作为Binding源
 {
     /// <summary>
     /// App.xaml 的交互逻辑

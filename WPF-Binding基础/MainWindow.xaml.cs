@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using System.Windows.Data;
 
-namespace _6_2_Binding基础
+namespace Binding基础
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑

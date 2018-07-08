@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace 没有Path的Binding
+namespace WPF_布局StackPanel
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑

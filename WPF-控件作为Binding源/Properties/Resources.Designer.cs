@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _6_3_1_控件作为Binding源.Properties
+namespace 控件作为Binding源.Properties
 {
 
 
