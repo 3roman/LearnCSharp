@@ -45,7 +45,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-布局Grid", "WPF-布�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-布局DockPanel", "WPF-布局DockPanel\WPF-布局DockPanel.csproj", "{11A4BF95-FB1D-47ED-86A1-BEB1568324F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-控件ListView", "WPF-控件ListView\WPF-控件ListView.csproj", "{34120110-7289-4D1B-B024-654079BFEDB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-控件ListView和SQLITE-NET", "WPF-控件ListView\WPF-控件ListView和SQLITE-NET.csproj", "{34120110-7289-4D1B-B024-654079BFEDB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget-MergeNativeDll", "Nuget-MergeNativeDll\Nuget-MergeNativeDll.csproj", "{212FFB9D-01C4-4BE7-9875-5043D728F1A0}"
 EndProject
