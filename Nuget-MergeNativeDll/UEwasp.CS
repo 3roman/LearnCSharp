@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace EmbedWin32Dll
+namespace MergeNativeDll
 {
     internal static class UEwasp
     {
