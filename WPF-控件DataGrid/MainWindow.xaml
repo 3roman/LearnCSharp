@@ -12,18 +12,17 @@
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
 
-        <ListView x:Name="listView1" MinWidth="280">
-            <ListView.View>
-                <GridView x:Name="gridView1">
-                    <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Id}"/>
-                    <GridViewColumn Header="FirstName" DisplayMemberBinding="{Binding FirstName}"/>
-                    <GridViewColumn Header="LastName" DisplayMemberBinding="{Binding LastName}"/>
-                    <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
+        <DataGrid x:Name="datagrid1" AutoGenerateColumns="False" SelectionMode="Single" SelectionUnit="FullRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="FirstName" Binding="{Binding FirstName}"/>
+                <DataGridTextColumn  Header="LastName" Binding="{Binding LastName}"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}"/>
+                <DataGridCheckBoxColumn Header="Married" Binding="{Binding Married}"/>
+            </DataGrid.Columns>
+        </DataGrid>
 
-        <WrapPanel Grid.Row="1" Orientation="Horizontal" DataContext="{Binding ElementName=listView1, Path=SelectedItem}">
+        <WrapPanel Grid.Row="1" Orientation="Horizontal" DataContext="{Binding ElementName=datagrid1, Path=SelectedItem}">
             <StackPanel Orientation="Horizontal" Margin="2">
                 <TextBlock Text="Id:" Margin="2"/>
                 <TextBox x:Name="txtId" MinWidth="100" Margin="2" Text="{Binding Id}"/>
@@ -39,6 +38,9 @@
             <StackPanel Orientation="Horizontal" Margin="2">
                 <TextBlock Text="Email:" Margin="2"/>
                 <TextBox x:Name="txtEmail" MinWidth="100" Margin="2" Text="{Binding Email}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="2">
+                <CheckBox x:Name="chkMarried" Content="Married" IsChecked="{Binding Married}"/>
             </StackPanel>
         </WrapPanel>
         <WrapPanel Grid.Row="2" Orientation="Horizontal">

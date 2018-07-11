@@ -2,6 +2,7 @@
 using System;
 using System.Linq;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace 控件DataGrid
 {
@@ -21,7 +22,7 @@ namespace 控件DataGrid
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var Persons = Conn.Table<Person>().ToList();
-            listView1.ItemsSource = Persons;
+            datagrid1.ItemsSource = Persons;
 
         }
 
@@ -31,29 +32,33 @@ namespace 控件DataGrid
             var firstName = txtFirstName.Text;
             var lastName = txtLastName.Text;
             var email = txtEmail.Text;
-
+            var married = (bool)chkMarried.IsChecked;
             Conn.Insert(new Person()
             {
                 FirstName = firstName,
                 LastName = lastName,
-                Email = email
+                Email = email,
+                Married = married
             });
 
         }
-
+            
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             var id = txtId.Text;
             var firstName = txtFirstName.Text;
             var lastName = txtLastName.Text;
             var email = txtEmail.Text;
+            var married = (bool)chkMarried.IsChecked;
 
-            string sql = string.Format("UPDATE Person SET FirstName = '{0}', LastName='{1}', Email='{2}' WHERE ID = {3}",
+            string sql = string.Format("UPDATE Person SET FirstName = '{0}', LastName='{1}', Email='{2}', Married={3} WHERE ID = {4}",
                 firstName,
                 lastName,
                 email,
+                married,
                 id); 
             Conn.Execute(sql);
+
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
@@ -68,10 +73,11 @@ namespace 控件DataGrid
         public class Person
         {
             [PrimaryKey, AutoIncrement]
-            public Int64 Id { get; set; }
+            public int Id { get; set; }
             public string FirstName { get; set; }
             public string LastName { get; set; }
             public string Email { get; set; }
+            public bool Married { get; set; }
         }
     }
 }

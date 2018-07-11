@@ -45,9 +45,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-布局Grid", "WPF-布�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-布局DockPanel", "WPF-布局DockPanel\WPF-布局DockPanel.csproj", "{11A4BF95-FB1D-47ED-86A1-BEB1568324F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-控件ListView和SQLITE-NET", "WPF-控件ListView\WPF-控件ListView和SQLITE-NET.csproj", "{34120110-7289-4D1B-B024-654079BFEDB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-控件ListView", "WPF-控件ListView\WPF-控件ListView.csproj", "{34120110-7289-4D1B-B024-654079BFEDB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget-MergeNativeDll", "Nuget-MergeNativeDll\Nuget-MergeNativeDll.csproj", "{212FFB9D-01C4-4BE7-9875-5043D728F1A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-控件DataGrid", "WPF-控件DataGrid\WPF-控件DataGrid.csproj", "{4F6CB8AF-336F-4AF6-878C-A83A114D2B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-触发器", "WPF-触发器\WPF-触发器.csproj", "{429DBF0C-391F-4A52-90FA-E5B6E42D3E35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +229,22 @@ Global
 		{212FFB9D-01C4-4BE7-9875-5043D728F1A0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{212FFB9D-01C4-4BE7-9875-5043D728F1A0}.Release|x86.ActiveCfg = Release|Any CPU
 		{212FFB9D-01C4-4BE7-9875-5043D728F1A0}.Release|x86.Build.0 = Release|Any CPU
+		{4F6CB8AF-336F-4AF6-878C-A83A114D2B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6CB8AF-336F-4AF6-878C-A83A114D2B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6CB8AF-336F-4AF6-878C-A83A114D2B7E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4F6CB8AF-336F-4AF6-878C-A83A114D2B7E}.Debug|x86.Build.0 = Debug|Any CPU
+		{4F6CB8AF-336F-4AF6-878C-A83A114D2B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6CB8AF-336F-4AF6-878C-A83A114D2B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6CB8AF-336F-4AF6-878C-A83A114D2B7E}.Release|x86.ActiveCfg = Release|Any CPU
+		{4F6CB8AF-336F-4AF6-878C-A83A114D2B7E}.Release|x86.Build.0 = Release|Any CPU
+		{429DBF0C-391F-4A52-90FA-E5B6E42D3E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429DBF0C-391F-4A52-90FA-E5B6E42D3E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429DBF0C-391F-4A52-90FA-E5B6E42D3E35}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{429DBF0C-391F-4A52-90FA-E5B6E42D3E35}.Debug|x86.Build.0 = Debug|Any CPU
+		{429DBF0C-391F-4A52-90FA-E5B6E42D3E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429DBF0C-391F-4A52-90FA-E5B6E42D3E35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429DBF0C-391F-4A52-90FA-E5B6E42D3E35}.Release|x86.ActiveCfg = Release|Any CPU
+		{429DBF0C-391F-4A52-90FA-E5B6E42D3E35}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
