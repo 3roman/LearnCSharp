@@ -4,22 +4,29 @@ namespace Binding基础
 {
     public class Student : INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged = (sender, e) => { };
+
         private string _name;
 
         public string Name
         {
-            get { return _name; }
+            get
+            {
+                return _name;
+            }
+
             set
             {
-                _name = value;
-                if (null != PropertyChanged)
+                if (value == _name)
                 {
-                    PropertyChanged.Invoke(this, new PropertyChangedEventArgs("Name"));
+                    return;
                 }
-            }
-        }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+                _name = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("Name"));
+            }
+
+        }
 
     }
 }

@@ -5,13 +5,12 @@ using System.Data;
 using System.Linq;
 using System.Windows;
 
-namespace Binding基础
+namespace NuGet_FodyMVVM
 {
     /// <summary>
     /// App.xaml 的交互逻辑
     /// </summary>
     public partial class App : Application
     {
-      
     }
 }

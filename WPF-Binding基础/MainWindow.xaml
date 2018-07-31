@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="100" Width="180">
     <StackPanel >
-        <TextBox x:Name ="txtName" Margin="5" />
+        <TextBox x:Name ="txtName" Margin="5" Text="{Binding Name}"/>
         <Button Content="click me" Click="Button_Click" Margin="5"/>
     </StackPanel>
 </Window>
