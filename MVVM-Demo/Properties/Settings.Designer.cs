@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Nuget_PropertyChanged和Commander.Properties
+namespace MVVMDemo.Properties
 {
 
 

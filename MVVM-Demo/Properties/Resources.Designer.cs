@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Nuget_PropertyChanged和Commander.Properties
+namespace MVVMDemo.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Nuget_PropertyChanged和Commander.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Nuget_PropertyChanged和Commander.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MVVMDemo.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
