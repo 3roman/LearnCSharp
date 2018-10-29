@@ -1,0 +1,19 @@
+﻿<Window x:Class="CSharp_Resource.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSharp_Resource"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:prop="clr-namespace:CSharp_Resource.Properties"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="400">
+    <Window.Resources>
+        <sys:String x:Key="slogan">GO GO C#</sys:String>
+    </Window.Resources>
+    <StackPanel>
+        <TextBlock Text="{StaticResource ResourceKey=slogan}"/>
+        <Button Content="{x:Static prop:Resources.ButtonName}"/>
+        <Image Source="log.jpg"/>
+    </StackPanel>
+</Window>

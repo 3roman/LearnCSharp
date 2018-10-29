@@ -8,6 +8,8 @@ namespace MVVMDemo.Commands
     {
         public event EventHandler CanExecuteChanged;
 
+        //public event EventHandler CanExecuteChanged;
+
         public bool CanExecute(object parameter)
         {
             //throw new NotImplementedException();

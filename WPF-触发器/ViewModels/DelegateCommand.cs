@@ -10,7 +10,6 @@ namespace WPF_触发器
 
         public bool CanExecute(object parameter)
         {
-            //throw new NotImplementedException();
             if (null == CanExecuteFunc)
             {
                 return true;
@@ -31,7 +30,5 @@ namespace WPF_触发器
 
         public Func<object, bool> CanExecuteFunc { get; set; }
         public Action<object> ExecuteAction { get; set; }
-        
-
     }
 }

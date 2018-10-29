@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MVVMDemo.Properties
+namespace CSharp_Resource.Properties
 {
 
 
