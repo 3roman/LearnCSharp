@@ -57,7 +57,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Syntax Sugar", "CSha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Resource", "CSharp-Resource\CSharp-Resource.csproj", "{7187ACF0-8F5E-45C6-B507-9E0E3C1D4AE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-MVVMLight", "WPF-MVVMLight\WPF-MVVMLight.csproj", "{1615ECF3-FC17-46DA-B7EF-286871BAE238}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Attribute", "CSharp-Attribute\CSharp-Attribute.csproj", "{40304F04-433A-486F-A021-5B12803C8B2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,14 +267,14 @@ Global
 		{7187ACF0-8F5E-45C6-B507-9E0E3C1D4AE7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7187ACF0-8F5E-45C6-B507-9E0E3C1D4AE7}.Release|x86.ActiveCfg = Release|Any CPU
 		{7187ACF0-8F5E-45C6-B507-9E0E3C1D4AE7}.Release|x86.Build.0 = Release|Any CPU
-		{1615ECF3-FC17-46DA-B7EF-286871BAE238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1615ECF3-FC17-46DA-B7EF-286871BAE238}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1615ECF3-FC17-46DA-B7EF-286871BAE238}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{1615ECF3-FC17-46DA-B7EF-286871BAE238}.Debug|x86.Build.0 = Debug|Any CPU
-		{1615ECF3-FC17-46DA-B7EF-286871BAE238}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1615ECF3-FC17-46DA-B7EF-286871BAE238}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1615ECF3-FC17-46DA-B7EF-286871BAE238}.Release|x86.ActiveCfg = Release|Any CPU
-		{1615ECF3-FC17-46DA-B7EF-286871BAE238}.Release|x86.Build.0 = Release|Any CPU
+		{40304F04-433A-486F-A021-5B12803C8B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40304F04-433A-486F-A021-5B12803C8B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40304F04-433A-486F-A021-5B12803C8B2E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{40304F04-433A-486F-A021-5B12803C8B2E}.Debug|x86.Build.0 = Debug|Any CPU
+		{40304F04-433A-486F-A021-5B12803C8B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40304F04-433A-486F-A021-5B12803C8B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40304F04-433A-486F-A021-5B12803C8B2E}.Release|x86.ActiveCfg = Release|Any CPU
+		{40304F04-433A-486F-A021-5B12803C8B2E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
