@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Attribute", "CSharp-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Index", "CSharp-Index\CSharp-Index.csproj", "{E74A4850-AD7D-4644-9970-BB20D53C1C64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Yield", "CSharp-Yield\CSharp-Yield.csproj", "{9284FDF4-0583-4F27-BC1F-94C6C0D71147}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,14 @@ Global
 		{E74A4850-AD7D-4644-9970-BB20D53C1C64}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E74A4850-AD7D-4644-9970-BB20D53C1C64}.Release|x86.ActiveCfg = Release|Any CPU
 		{E74A4850-AD7D-4644-9970-BB20D53C1C64}.Release|x86.Build.0 = Release|Any CPU
+		{9284FDF4-0583-4F27-BC1F-94C6C0D71147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9284FDF4-0583-4F27-BC1F-94C6C0D71147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9284FDF4-0583-4F27-BC1F-94C6C0D71147}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9284FDF4-0583-4F27-BC1F-94C6C0D71147}.Debug|x86.Build.0 = Debug|Any CPU
+		{9284FDF4-0583-4F27-BC1F-94C6C0D71147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9284FDF4-0583-4F27-BC1F-94C6C0D71147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9284FDF4-0583-4F27-BC1F-94C6C0D71147}.Release|x86.ActiveCfg = Release|Any CPU
+		{9284FDF4-0583-4F27-BC1F-94C6C0D71147}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
