@@ -20,7 +20,7 @@
 
     class Student
     {
-        private string[] names = new string[100];
+        private readonly string[] names = new string[100];
 
         // 声明索引器
         public string this[int index]

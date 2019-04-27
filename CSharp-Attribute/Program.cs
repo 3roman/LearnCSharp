@@ -9,7 +9,6 @@ namespace CSharp_Attribute
         //[Version(MajorVersion = 1, MinorVersion = 0, Description = "测试版")]
         static void Main(string[] args)
         {
-            // 只有在DEBUG模式下才会调用该函数
             MyClass.Foo();
             MyClass.SayHello();
 
@@ -39,7 +38,7 @@ namespace CSharp_Attribute
         [Conditional("DEBUG")]
         public static void Foo()
         {
-            Console.WriteLine("In Debug Mode");
+            Console.WriteLine("只有在Debug模式下，该函数才会被实际调用");
         }
 
         // 加true参数调用过时方法会报错
