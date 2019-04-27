@@ -2,9 +2,9 @@
 using System.Windows.Input;
 using System.Windows;
 using Mvvm.Commands;
-using WpfApp1.Model;
+using Nuget_PropertyChanged.Model;
 
-namespace WpfApp1.ViewModel
+namespace Nuget_PropertyChanged.ViewModel
 {
     class MainViewModel : BindableBase
     {
