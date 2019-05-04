@@ -1,7 +1,7 @@
-﻿<Application x:Class="Nuget_PropertyChanged.App"
+﻿<Application x:Class="MVVM_BestMVVMSolution.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Nuget_PropertyChanged"
+             xmlns:local="clr-namespace:MVVM_BestMVVMSolution"
              StartupUri="View/MainWindow.xaml">
     <Application.Resources>
          

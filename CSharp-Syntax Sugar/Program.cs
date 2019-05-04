@@ -123,8 +123,62 @@ namespace CSharp_Syntax_Sugar
 
             #endregion
 
+            #region 构造函数调用其他构造函数
+            var cls = new Test();
+            #endregion
+
+            #region 问号的用法
+            // 1、三目操作符
+            int Age = 16;
+            Console.WriteLine(age > 18 ? "成年" : "未成年");
+
+            // 2、可空类型操作符（常用于ORM）
+            // 编译器报错，值类型不能被赋为null
+            // DateTime dt = null;
+            DateTime? dt = null;
+
+            // 3、空合并运算符
+            string str1 = null;
+            string str2 = str1 ?? "str1为空";
+            // 等同于
+            if (str1 != null)
+            {
+                str2 = str1;
+            }
+            else
+            {
+                str2 = "str1为空";
+            }
+                       
+            // 对象null检测
+            cls?.Show();
+            // 等同于以下
+            if (null != cls)
+            {
+                cls.Show();
+            }
+
+
+            #endregion
+
             Console.Read();
         }
+    }
 
+    class Test
+    {
+        public Test():this(1,1)
+        {
+            Console.WriteLine("默认构造函数");
+        }
+
+        public Test(int x, int y)
+        {
+            Console.WriteLine("自定义构造函数");
+        }
+
+        public void Show()
+        {
+        }
     }
 }

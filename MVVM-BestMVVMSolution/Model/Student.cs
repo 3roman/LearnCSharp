@@ -1,4 +1,4 @@
-﻿namespace Nuget_PropertyChanged.Model
+﻿namespace MVVM_BestMVVMSolution.Model
 {
     class Student
     {

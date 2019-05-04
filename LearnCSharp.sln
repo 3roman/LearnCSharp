@@ -49,13 +49,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget-Dapper", "Nuget-Dappe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget-Less.Html", "Nuget-Less.Html\Nuget-Less.Html.csproj", "{5DC2E64D-51EC-4CA3-B9EF-290811DFC746}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget-Mvvm", "Nuget-Mvvm\Nuget-Mvvm.csproj", "{17BA731C-86FD-45EE-B056-07B63780A3C9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet-Fody.Costura", "Nuget_Costura.Fody\NuGet-Fody.Costura.csproj", "{245A3F8C-CF67-4912-8CE7-CA61F79485D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Event", "CSharp-Event\CSharp-Event.csproj", "{9D6D419A-9379-4E1E-89D2-A018740AE101}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget-Fody.PropertyChanged", "Nuget-PropertyChanged.Fody\Nuget-Fody.PropertyChanged.csproj", "{A883BF15-8A80-4744-A404-2170B6E94DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM-BestMVVMSolution", "MVVM-BestMVVMSolution\MVVM-BestMVVMSolution.csproj", "{E237221A-9A3C-40BD-94A0-2C54D92F1527}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -245,14 +245,6 @@ Global
 		{5DC2E64D-51EC-4CA3-B9EF-290811DFC746}.Release|Any CPU.ActiveCfg = Release|x86
 		{5DC2E64D-51EC-4CA3-B9EF-290811DFC746}.Release|x86.ActiveCfg = Release|x86
 		{5DC2E64D-51EC-4CA3-B9EF-290811DFC746}.Release|x86.Build.0 = Release|x86
-		{17BA731C-86FD-45EE-B056-07B63780A3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17BA731C-86FD-45EE-B056-07B63780A3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17BA731C-86FD-45EE-B056-07B63780A3C9}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{17BA731C-86FD-45EE-B056-07B63780A3C9}.Debug|x86.Build.0 = Debug|Any CPU
-		{17BA731C-86FD-45EE-B056-07B63780A3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17BA731C-86FD-45EE-B056-07B63780A3C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17BA731C-86FD-45EE-B056-07B63780A3C9}.Release|x86.ActiveCfg = Release|Any CPU
-		{17BA731C-86FD-45EE-B056-07B63780A3C9}.Release|x86.Build.0 = Release|Any CPU
 		{245A3F8C-CF67-4912-8CE7-CA61F79485D6}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{245A3F8C-CF67-4912-8CE7-CA61F79485D6}.Debug|x86.ActiveCfg = Debug|x86
 		{245A3F8C-CF67-4912-8CE7-CA61F79485D6}.Debug|x86.Build.0 = Debug|x86
@@ -275,6 +267,14 @@ Global
 		{A883BF15-8A80-4744-A404-2170B6E94DAC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A883BF15-8A80-4744-A404-2170B6E94DAC}.Release|x86.ActiveCfg = Release|Any CPU
 		{A883BF15-8A80-4744-A404-2170B6E94DAC}.Release|x86.Build.0 = Release|Any CPU
+		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Debug|x86.Build.0 = Debug|Any CPU
+		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Release|x86.ActiveCfg = Release|Any CPU
+		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
