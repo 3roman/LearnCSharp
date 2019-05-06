@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget-Fody.PropertyChanged"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM-BestMVVMSolution", "MVVM-BestMVVMSolution\MVVM-BestMVVMSolution.csproj", "{E237221A-9A3C-40BD-94A0-2C54D92F1527}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget_MvvmLight", "Nuget_MvvmLight\Nuget_MvvmLight.csproj", "{329BCC29-F92F-45F8-9B75-B2B77588DE01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -275,6 +277,14 @@ Global
 		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Release|x86.ActiveCfg = Release|Any CPU
 		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Release|x86.Build.0 = Release|Any CPU
+		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Debug|x86.Build.0 = Debug|Any CPU
+		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Release|x86.ActiveCfg = Release|Any CPU
+		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
