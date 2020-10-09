@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Binding源为集合", "WPF-集合对象作为Binding源\WPF-Binding源为集合.csproj", "{C65749DB-8A5D-4F36-BD83-A39D23BBF4DE}"
 EndProject
@@ -57,7 +57,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget-Fody.PropertyChanged"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM-BestMVVMSolution", "MVVM-BestMVVMSolution\MVVM-BestMVVMSolution.csproj", "{E237221A-9A3C-40BD-94A0-2C54D92F1527}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget_MvvmLight", "Nuget_MvvmLight\Nuget_MvvmLight.csproj", "{329BCC29-F92F-45F8-9B75-B2B77588DE01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLight+Fody.Propertychanged", "MVVM-MVVMLight+Fody.Propertychanged\MVVMLight+Fody.Propertychanged.csproj", "{CDB926F9-8697-40A4-92CF-29B1CEFCD4D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -277,14 +277,14 @@ Global
 		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Release|x86.ActiveCfg = Release|Any CPU
 		{E237221A-9A3C-40BD-94A0-2C54D92F1527}.Release|x86.Build.0 = Release|Any CPU
-		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Debug|x86.Build.0 = Debug|Any CPU
-		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Release|x86.ActiveCfg = Release|Any CPU
-		{329BCC29-F92F-45F8-9B75-B2B77588DE01}.Release|x86.Build.0 = Release|Any CPU
+		{CDB926F9-8697-40A4-92CF-29B1CEFCD4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB926F9-8697-40A4-92CF-29B1CEFCD4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB926F9-8697-40A4-92CF-29B1CEFCD4D7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CDB926F9-8697-40A4-92CF-29B1CEFCD4D7}.Debug|x86.Build.0 = Debug|Any CPU
+		{CDB926F9-8697-40A4-92CF-29B1CEFCD4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB926F9-8697-40A4-92CF-29B1CEFCD4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB926F9-8697-40A4-92CF-29B1CEFCD4D7}.Release|x86.ActiveCfg = Release|Any CPU
+		{CDB926F9-8697-40A4-92CF-29B1CEFCD4D7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

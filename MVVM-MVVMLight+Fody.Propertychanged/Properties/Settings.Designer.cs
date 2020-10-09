@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPF_MVVMLight.Properties
+namespace WpfApp1.Properties
 {
 
 

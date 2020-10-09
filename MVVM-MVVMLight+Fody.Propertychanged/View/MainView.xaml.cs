@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace WPF_MVVMLight
+namespace WpfApp1
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
